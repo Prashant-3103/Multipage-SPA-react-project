@@ -20,3 +20,19 @@
 .list a.active {
   color: var(--color-primary-800);
 }
+
+.list button {
+  text-decoration: none;
+  background-color: red;
+  border-radius: 10px;
+  color: var(--color-primary-800);
+  font-size: 1.1rem;
+
+}
+
+.list button:hover,
+.list button.active {
+  background-color: rgb(201, 31, 31);
+  color: rgb(125, 125, 5);
+
+}

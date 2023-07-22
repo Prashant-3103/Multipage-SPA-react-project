@@ -53,7 +53,9 @@ function MainNavigation() {
 
         {token&&   <li>
 <Form action='/logout' method='post'>
-<button>logout</button>
+<button   className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }  >Logout</button>
 </Form>
           </li>}
         </ul>
